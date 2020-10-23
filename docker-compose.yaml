@@ -3,7 +3,7 @@ services:
     apiservice:
         container_name: ktcapi
         build: 
-            context: .
+            context: ./KnowThatCountryAPI
             dockerfile: dockerfile
         ports: 
           - "5005:5005"
