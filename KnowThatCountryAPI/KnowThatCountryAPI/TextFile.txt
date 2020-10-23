@@ -1,0 +1,18 @@
+﻿Setup API Project and run locally
+Publish to github and Setup Pipeline to Azure
+Test
+
+Setup Azure Log Analytics
+
+Setup Prod and test 
+setup API Gateway
+
+Add it to docker container
+Push to Azure Container Registry
+Test
+
+Setup UI to consume
+Deploy to Azure
+
+setup K8S service
+Load testing

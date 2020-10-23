@@ -1,0 +1,9 @@
+version: '3.7'
+services: 
+    apiservice:
+        container_name: ktcapi
+        build: 
+            context: .
+            dockerfile: dockerfile
+        ports: 
+          - "5005:5005"
