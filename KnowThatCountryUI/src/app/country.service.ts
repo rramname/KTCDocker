@@ -11,11 +11,9 @@ import { Country } from './CountriesModel';
 })
 export class CountryService{
 
-    apiURL="http://localhost:9092/Countries/GetAll"
+    apiURL="http://apiservice/Countries/GetAll"
     httpClient:HttpClient
-    /**
-     *
-     */
+
     constructor(private thttpClient: HttpClient) {
         this.httpClient=thttpClient;
 
