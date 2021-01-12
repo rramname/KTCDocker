@@ -11,8 +11,9 @@ services:
         container_name: ktcui
         build: 
             context: ./KnowThatCountryUI
-            dockerfile: dockerfile.deploy
-        volumes: 
-            - ./src:/app2/src
+            dockerfile: dockerfile.UI
         ports: 
           - "5006:80"
+        depends_on: 
+          - apiservice
+

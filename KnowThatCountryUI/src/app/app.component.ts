@@ -10,9 +10,7 @@ export class AppComponent {
   title = 'KnowThatCountryUI';
   countryService:CountryService;
   countries=[];
-  /**
-   *
-   */
+ 
   constructor(private tCountryService:CountryService) {
       this.countryService=tCountryService;
       this.GetAll();
